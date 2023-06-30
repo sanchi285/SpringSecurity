@@ -2,6 +2,8 @@
 
 Select * From users;
 
+Select * From customer;
+
 /*
 INSERT IGNORE INTO `users` VALUES (NULL, 'happy', '12345', '1');
 INSERT IGNORE INTO `authorities` VALUES (NULL, 'happy', '12345','write');
@@ -29,5 +31,7 @@ CREATE TABLE `customer` (
      PRIMARY KEY (`id`)
 );
 
+INSERT INTO `customer` (`email`,`pwd`,`role`)
+VALUES('bismoy.sanchi@gmail.com','54321','admin');
 
 */
